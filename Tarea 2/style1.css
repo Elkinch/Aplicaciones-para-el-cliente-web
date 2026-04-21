@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.contenedor {
+    width: 89%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.seccion {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.seccion h2 {
+    color: #233b5a;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+/* Datos personales con foto */
+.datos-personales {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto img {
+    width: 140px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 3px solid #34486e;
+}
+
+.info-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-lista li {
+    margin-bottom: 8px;
+}
+
+.info-lista strong {
+    display: inline-block;
+    width: 80px;
+}
+
+.lista-simple {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-simple li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #233b5a;
+}
+
+/* Tabla de referencias */
+.tabla-referencias {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-referencias th,
+.tabla-referencias td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-referencias th {
+    background-color: #233b5a;
+    color: white;
+}
+
+.tabla-referencias td {
+    background-color: #fff;
+}
